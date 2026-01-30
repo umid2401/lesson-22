@@ -1,0 +1,233 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+.orqa_fon_left {
+  width: 571px;
+  height: 860px;
+  opacity: 1;
+
+  background-color: rgba(128, 10, 122, 1);
+}
+.wrapper {
+  /* width: 100%;
+  height: 100px; */
+  /* max-width: 300px; */
+}
+.orqa_fon_right {
+  width: 942px;
+  height: 733px;
+  background-color: rgba(255, 255, 255, 1);
+}
+.oraqa_fon {
+  display: flex;
+}
+.links {
+  display: flex;
+  gap: 40px;
+  margin-left: 90px;
+  padding: 42px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0px;
+}
+.nav_link:hover {
+  color: rgba(241, 179, 1, 1);
+}
+
+.nav_link {
+  text-decoration: none;
+  cursor: pointer;
+  color: rgb(25, 9, 55);
+}
+.birinch_teg {
+  display: flex;
+  margin-bottom: 123px;
+}
+
+.aaa {
+  margin-right: 222px;
+  padding: 23px 100px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.nav_links {
+  font-size: 10px;
+  position: absolute;
+  margin-top: -9px;
+  margin-right: 120px;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 1);
+  font-family: "Inter", sans-serif;
+}
+.nav_linkss {
+  font-size: 20px;
+  margin-right: 120px;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 1);
+  font-family: "Inter", sans-serif;
+}
+.nav_linksss {
+  font-size: 20px;
+  position: absolute;
+  margin-top: -9px;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 1);
+  font-family: "Inter", sans-serif;
+}
+.nav_linkssss {
+  font-size: 10px;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 1);
+  font-family: "Inter", sans-serif;
+}
+.rasm {
+  padding: 5px 3px;
+  font-size: 10px;
+  margin-right: 11px;
+}
+.rasm_3 {
+  position: absolute;
+  margin-left: -26px;
+  margin-top: -10px;
+}
+.rasm_2 {
+  margin-right: 11px;
+  /* text-decoration: none; */
+}
+.ikkinch_teg {
+  margin-top: 35px;
+  margin-left: 38px;
+}
+/* .title{
+ font-family: "Inter", sans-serif;
+font-weight: 900;
+font-size: 80px;
+line-height: 85px;
+letter-spacing: 0px;
+margin-bottom: 14px;
+margin-left: 122px;
+margin-right: 23px;
+} */
+.text_content {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: 0px;
+  margin-left: 122px;
+  margin-right: 23px;
+  position: relative;
+  top: 17px;
+}
+.mow {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+}
+.mow {
+  position: relative;
+  top: 20px;
+}
+.mow a {
+  font-size: 40px;
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
+  font-size: 80px;
+  line-height: 85px;
+  letter-spacing: 0px;
+  margin-bottom: 14px;
+  margin-left: 122px;
+  margin-right: 23px;
+  text-decoration: none;
+  color: rgba(34, 33, 36, 1);
+}
+.burger {
+  margin-left: 500px;
+  position: relative;
+  bottom: 460px;
+  left: 159px;
+}
+.wrapper {
+  /* margin-bottom: 79px; */
+}
+.sity {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-transform: uppercase;
+  position: relative;
+  color: rgba(231, 106, 6, 1);
+  top: 200px;
+  left: 100px;
+}
+.border {
+  width: 1140px;
+  height: 1px;
+  border: 1px solid rgba(151, 151, 151, 1);
+  margin-left: 140px;
+  position: relative;
+  bottom: 200px;
+}
+.birinchi {
+  position: relative;
+  bottom: 295px;
+  left: 120px;
+}
+
+.ikkinch {
+  position: relative;
+  bottom: 295px;
+  left: 144px;
+}
+.ikkita_teg {
+  display: flex;
+  gap: 41px;
+  margin-top: 100px;
+}
+.butonlar {
+  display: flex;
+  margin-bottom: 10px;
+  gap: 60px;
+  margin-left: 100px;
+  position: relative;
+  right: 10px;
+  top: 40px;
+  cursor: pointer;
+
+}
+.buton {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  align-items: center;
+}
+.buton_1{
+  width: 120px;
+height: 50px;
+opacity: 1;
+border-radius: 27px;
+background-color: rgba(241, 179, 1, 1);
+color: white;
+
+
+
+}
+.buton_img{
+ position: relative;
+ left: 50px;
+}
